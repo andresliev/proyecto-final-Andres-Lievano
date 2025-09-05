@@ -20,13 +20,15 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: var(--fondo-tarjeta);
+  background-color: black;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .encabezado-principal h1 {
   margin: 0;
   font-size: 2em;
+  text-align: center;
+  color: blanchedalmond;
 }
 
 .encabezado-principal button {
@@ -87,7 +89,7 @@ body {
 }
 
 .tarjeta-producto button {
-  background-color: var(--color-principal);
+  background-color: black;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -164,6 +166,22 @@ body {
   font-weight: bold;
 }
 
+.boton-sumar {
+  background-color: #334252;
+  border: none;
+  border-radius: 20px;
+}
+.boton-restar {
+  background-color: rgb(150, 122, 127);
+  border: none;
+  border-radius: 20px;
+}
+.boton-eliminar {
+  background-color: rgb(11, 139, 143);
+  border: none;
+  border-radius: 10px;
+}
+
 .pie-carrito {
   padding: 20px;
   border-top: 1px solid var(--color-secundario);
@@ -177,7 +195,7 @@ body {
 
 .pie-carrito #boton-finalizar-compra {
   width: 100%;
-  background-color: var(--color-principal);
+  background-color: black;
   color: white;
   border: none;
   padding: 15px;
